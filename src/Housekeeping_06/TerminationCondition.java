@@ -28,6 +28,6 @@ public class TerminationCondition {
         new Book(true);
         // Force garbage collection & finalization:
         System.gc();
-        new Nap(1); // One second delay,此处是为了让垃圾回收算法工作
+         // One second delay,此处是为了让垃圾回收算法工作
     }
 }
